@@ -1,0 +1,24 @@
+.top_section{
+    background-color: #F83700;
+    color:#FFF;
+    z-index:1;
+}
+
+.xs-margin-top-20px{
+    margin-top: 20px;
+}
+
+.table-styles{
+    border: 1px solid #E6E6E6;
+    width:100%
+}
+
+th,td{
+    border: 1px solid #E6E6E6;
+    font-weight: normal;
+    text-align: center;
+}
+
+.pd{
+    padding:6px 6px 6px 6px;
+}

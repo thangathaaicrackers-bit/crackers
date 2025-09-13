@@ -1,0 +1,20 @@
+.pricelist-h2{
+    margin-top:40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-size:300;
+}
+
+.desktop-view{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-view{
+        display: none;
+    }
+
+    .desktop-view{
+        display: block;
+    }
+}

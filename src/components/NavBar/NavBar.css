@@ -1,0 +1,53 @@
+.marquee-header{
+    background-color:#86fdcc;
+    color:black;
+}
+
+.navbar{
+    border-radius: 4px;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color:#eca1fe;
+}
+
+.navbar-nav a{
+    display: block;
+    color:#ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 17px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.pad{
+    padding:0px 26px 0px 26px;
+}
+
+.bg-red{
+    background: #aab1ff;
+    min-height: 60px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 10px;
+}
+
+.bg-red svg{
+    width:40px;
+    margin-right: 20px;
+    height: auto;
+}
+
+.promotional-info {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.promo-text {
+    font-size: 16px;
+    color: #aab1ff;
+    font-weight: bold;
+}
