@@ -73,7 +73,7 @@ export default function Home() {
   };
 
   const calculateOverallTotal = () => {
-    return selectedItems.reduce((acc, item) => acc + (item.total || 0), 0);
+    return selectedItems.reduce((acc, item) => acc + (item.total || 0), 0).toFixed(2);
   };
 
   const calculateSelectedProductCount = () => {
@@ -175,17 +175,19 @@ export default function Home() {
                   onChange={(e) =>
                     handleQuantityChange(item._id, e.target.value)
                   }
+                  onWheel={(e) => e.currentTarget.blur()} 
                 ></input>
               </td>
               <td id="0" className="amount text-center pd" width="10%">
-                <input
+                {/* <input
                   type="text"
                   name="amount"
                   className="form-control"
                   disabled
                   style={{ paddingLeft: 0, paddingRight: "7px" }}
                   value={item.total && item.total !== 0 ? ` ${item.total}` : 0}
-                ></input>
+                ></input> */}
+                {item?.total?.toFixed(2)}
               </td>
             </tr>
           ))}
