@@ -187,7 +187,7 @@ export default function Home() {
                   style={{ paddingLeft: 0, paddingRight: "7px" }}
                   value={item.total && item.total !== 0 ? ` ${item.total}` : 0}
                 ></input> */}
-                {item?.total?.toFixed(2)}
+                {item?.total}
               </td>
             </tr>
           ))}
